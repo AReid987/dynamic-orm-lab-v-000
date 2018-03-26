@@ -1,6 +1,6 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
-require Pry
+require pry
 class InteractiveRecord
 
   def self.table_name
